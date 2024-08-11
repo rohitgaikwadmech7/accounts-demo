@@ -9,4 +9,5 @@ import lombok.NoArgsConstructor;
 public class CustomerDto {
 
     private String name, email, mobileNumber;
+    private AccountsDto accountsDto;
 }
